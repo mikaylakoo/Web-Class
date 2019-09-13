@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ali's position absolute editor</title>
+        <style>
+
+
+        		.another,
+        		.parent,
+        		.child {
+        			margin:5em;
+        		}
+
+
+
+        		.another {
+        			width:35em;
+        			height:35em;
+        			background:black;
+
+        		}
+
+        		.parent {
+        			width:70vw;
+        			height:70vh;
+        			background:black;
+                    position: absolute;
+        			/* add position:relative; to this rule and see how it changes the layout of this page */
+        		}
+
+        		.child {
+        			width:300px;
+        			height:300px;
+        			position:absolute;
+        			left:200px;
+        			top:150px;
+        			background:white;
+        		}
+
+
+
+        </style>
+    </head>
+    <body>
+    	<div class="another"></div>
+        <div class="parent">
+        	<div class="child">
+        	</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+body {
+	background:#2700ff;
+	font-family:sans-serif;
+	color: #eeeeff;
+}
+
+.fp{ font-size: 1.5em;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+ }
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
