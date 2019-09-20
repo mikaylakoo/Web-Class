@@ -1,0 +1,39 @@
+body{
+	background:white;
+	color:black;
+	font-family:"calibri", sans-serif;
+	font-size:15pt;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:bold;
+	line-height:25px;
+	letter-spacing: 6px;
+	text-align: right;
+	text-decoration: 
+
+}
+
+/*this is a comment 
+
+
+h1 {
+	line-height: 70px;
+	font-size: 66pt;
+	text-align: center;
+}
+
+*/
+
+p {
+	font-family: 'Cute Font';
+}
+
+.header {
+	position: fixed;
+	left:0;
+	top:30vh;
+	width: 20vw;
+	background:black;
+	color:white;
+
+}

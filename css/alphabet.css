@@ -171,7 +171,7 @@ div{
 				background:white;
 				height:110px;
 				width:20px;
-				left: 1000px;
+				left: 50px;
 				top: 55px;
 				transform:skew(-35deg)
 
@@ -181,7 +181,7 @@ div{
 				background:black;
 				height:8px;
 				width:80px;
-				left: 1050px;
+				left: 90px;
 				top: 60px;
 				transform:skew(-35deg)
 
@@ -191,7 +191,7 @@ div{
 				background:black;
 				height:65px;
 				width:65px;
-				left: 1020px;
+				left: 100px;
 				top: 105px;
 				border-radius:50%;
 
@@ -201,7 +201,7 @@ div{
 				background:white;
 				height:110px;
 				width:5px;
-				left: 1035px;
+				left: 85px;
 				top: 60px;
 				transform:skew(-35deg)
 
@@ -210,9 +210,9 @@ div{
 			.G-1 {
 				background:white;
 				height:70px;
-				width:30px;
-				left: 1190px;
-				top: 50px;
+				width:20px;
+				left: 40px;
+				top: 40px;
 				transform:skew(-50deg)
 				
 				}
@@ -222,8 +222,8 @@ div{
 				background:black;
 				height:70px;
 				width:22px;
-				left: 1205px;
-				top: 113px;
+				left: 55px;
+				top: 105px;
 				transform:skew(60deg)
 				
 				}
@@ -232,7 +232,7 @@ div{
 				background:black;
 				height:70px;
 				width:70px;
-				left: 1230px;
+				left: 80px;
 				top:100px;
 				border-radius:50%;
 
@@ -242,8 +242,9 @@ div{
 				background:white;
 				height:60px;
 				width:5px;
-				left: 1270px;
+				left: 110px;
 				top: 114px;
+				transform:skew(-30deg)
 
 				
 			}
@@ -252,7 +253,7 @@ div{
 				background:white;
 				height:110px;
 				width:10px;
-				left: 1372px;
+				left: 42px;
 				top: 50px;
 				transform:skew(-35deg)
 
@@ -262,7 +263,7 @@ div{
 				background:black;
 				height:110px;
 				width:30px;
-				left: 1443px;
+				left: 113px;
 				top: 50px;
 				transform:skew(-35deg)
 
@@ -273,7 +274,7 @@ div{
 				background:black;
 				height:60px;
 				width:60px;
-				left: 1380px;
+				left: 50px;
 				top: 80px;
 				border-radius: 50%;
 			
@@ -284,7 +285,7 @@ div{
 				background:white;
 				height:120px;
 				width:20px;
-				left: 1580px;
+				left: 80px;
 				top: 57px;
 				transform:skew(-35deg)
 
@@ -295,7 +296,7 @@ div{
 				background:black;
 				height:120px;
 				width:5px;
-				left: 1620px;
+				left: 120px;
 				top: 57px;
 				transform:skew(-35deg)
 
@@ -304,9 +305,9 @@ div{
 
 			.I-3 {
 				background:black;
-				height:40px;
-				width:40px;
-				left: 1610px;
+				height:50px;
+				width:50px;
+				left: 80px;
 				top: 100px;
 				border-radius: 50%;
 			
@@ -317,7 +318,7 @@ div{
 				height: 25px;
 				width: 120px;
 				transform: skew(-35deg);
-				left:1740px;
+				left:40px;
 				top: 40px;
 			}
 
@@ -325,7 +326,7 @@ div{
 				background:black;
 				height:100px;
 				width:20px;
-				left: 1790px;
+				left: 90px;
 				top: 50px;
 				transform:skew(-35deg)
 
@@ -335,7 +336,7 @@ div{
 				background:black;
 				height:50px;
 				width:50px;
-				left: 1715px;
+				left: 20px;
 				top: 120px;
 				border-radius: 50%;
 			
@@ -345,7 +346,7 @@ div{
 				background:white;
 				height:100px;
 				width:5px;
-				left: 1780px;
+				left: 80px;
 				top: 40px;
 				transform:skew(-35deg)
 
@@ -356,7 +357,7 @@ div{
 				background:white;
 				height:110px;
 				width:25px;
-				left: 1940px;
+				left: 40px;
 				top: 57px;
 				transform:skew(-35deg)
 
@@ -366,7 +367,7 @@ div{
 				background:black;
 				height:70px;
 				width:30px;
-				left: 1990px;
+				left: 90px;
 				top: 66px;
 				transform:skew(-50deg)
 				
@@ -377,7 +378,7 @@ div{
 				background:white;
 				height:70px;
 				width:12px;
-				left: 2010px;
+				left: 110px;
 				top: 100px;
 				transform:skew(55deg)
 				
@@ -387,7 +388,7 @@ div{
 				background:black;
 				height:50px;
 				width:50px;
-				left: 1950px;
+				left: 50px;
 				top: 100px;
 				border-radius: 50%;
 			
@@ -397,7 +398,7 @@ div{
 				background:white;
 				height:110px;
 				width:25px;
-				left: 2130px;
+				left: 40px;
 				top: 57px;
 				transform:skew(-35deg)
 
@@ -407,7 +408,7 @@ div{
 				background:black;
 				height:8px;
 				width:100px;
-				left: 2150px;
+				left: 50px;
 				top: 157px;
 				transform:skew(-35deg)
 
@@ -417,7 +418,7 @@ div{
 				background:white;
 				height:110px;
 				width:5px;
-				left: 2170px;
+				left: 70px;
 				top: 57px;
 				transform:skew(-35deg)
 
@@ -428,7 +429,7 @@ div{
 				height:140px;
 				width:25px;
 				left: 55px;
-				top: 223px;
+				top: 53px;
 				transform:skew(-30deg)
 			}
 
@@ -437,7 +438,7 @@ div{
 				height:110px;
 				width:8px;
 				left: 82px;
-				top: 253px;
+				top: 53px;
 				transform:skew(3deg);
 
 			}
@@ -447,7 +448,7 @@ div{
 				height:40px;
 				width:40px;
 				left: 70px;
-				top: 326px;
+				top: 56px;
 				border-radius: 50%;
 			
 			}
@@ -457,7 +458,7 @@ div{
 				height:90px;
 				width:20px;
 				left: 140px;
-				top: 275px;
+				top: 55px;
 				transform:skew(-30deg)
 			}
 
@@ -466,7 +467,7 @@ div{
 				height:70px;
 				width: 5px;
 				left: 125px;
-				top: 283px;
+				top: 53px;
 				transform:skew(-35deg);
 
 			}
@@ -476,8 +477,8 @@ div{
 				background:white;
 				height:110px;
 				width:20px;
-				left: 240px;
-				top: 250px;
+				left: 40px;
+				top: 10px;
 				transform:skew(-30deg)
 			}
 
@@ -485,8 +486,8 @@ div{
 				background:black;
 				height:110px;
 				width:5px;
-				left: 275px;
-				top: 250px;
+				left: 75px;
+				top: 50px;
 				transform:skew(5deg);
 
 			}
@@ -495,8 +496,8 @@ div{
 				background:white;
 				height:110px;
 				width:20px;
-				left: 320px;
-				top: 250px;
+				left: 120px;
+				top: 50px;
 				transform:skew(-30deg)
 			}
 
@@ -504,8 +505,8 @@ div{
 				background:black;
 				height:40px;
 				width:40px;
-				left: 280px;
-				top: 330px;
+				left: 60px;
+				top: 30px;
 				border-radius: 50%;
 			
 			}
@@ -514,8 +515,8 @@ div{
 				background:black;
 				height:120px;
 				width:120px;
-				left: 415px;
-				top: 236px;
+				left: 15px;
+				top: 56px;
 				border-radius: 50%;
 				transform:skew(-30deg);
 			
@@ -525,8 +526,8 @@ div{
 				background:white;
 				height:40px;
 				width:40px;
-				left: 450px;
-				top: 280px;
+				left: 50px;
+				top: 80px;
 				border-radius: 50%;
 			
 			}
@@ -535,8 +536,8 @@ div{
 				background:white;
 				height:110px;
 				width:7px;
-				left: 457px;
-				top: 230px;
+				left: 57px;
+				top: 30px;
 				transform:skew(-45deg)
 			
 			}
@@ -545,8 +546,8 @@ div{
 				background:white;
 				height:110px;
 				width:16px;
-				left: 477px;
-				top: 230px;
+				left: 77px;
+				top: 30px;
 				transform:skew(-45deg)
 			
 			}
@@ -555,8 +556,8 @@ div{
 				background:white;
 				height:130px;
 				width:25px;
-				left: 628px;
-				top: 230px;
+				left: 28px;
+				top: 30px;
 				transform:skew(-35deg)
 
 			}
@@ -565,8 +566,8 @@ div{
 				background:black;
 				height:80px;
 				width:80px;
-				left: 668px;
-				top:250px;
+				left: 68px;
+				top:50px;
 				border-radius:50%;
 
 				}
@@ -576,8 +577,8 @@ div{
 				background:white;
 				height:130px;
 				width:5px;
-				left: 668px;
-				top: 230px;
+				left: 68px;
+				top: 30px;
 				transform:skew(-35deg)
 
 			}
@@ -586,8 +587,8 @@ div{
 				background:black;
 				height:120px;
 				width:120px;
-				left: 795px;
-				top: 230px;
+				left: 25px;
+				top: 30px;
 				border-radius: 50%;
 				transform:skew(-35deg);
 			
@@ -597,8 +598,8 @@ div{
 				background:white;
 				height:70px;
 				width:8px;
-				left: 840px;
-				top: 290px;
+				left: 40px;
+				top: 90px;
 				transform:skew(50deg)
 				
 				}
@@ -607,8 +608,8 @@ div{
 				background:white;
 				height:70px;
 				width:25px;
-				left:860px;
-				top:290px;
+				left:60px;
+				top:90px;
 				transform:skew(50deg)
 				
 				}
@@ -618,8 +619,8 @@ div{
 				background:white;
 				height:110px;
 				width:25px;
-				left: 1000px;
-				top: 240px;
+				left: 10px;
+				top: 40px;
 				transform:skew(-35deg)
 
 			}
@@ -628,8 +629,8 @@ div{
 				background:black;
 				height:70px;
 				width:70px;
-				left: 1050px;
-				top:245px;
+				left: 50px;
+				top:45px;
 				border-radius:50%;
 
 				}
@@ -637,8 +638,8 @@ div{
 				background:white;
 				height:70px;
 				width:8px;
-				left: 1060px;
-				top: 290px;
+				left: 60px;
+				top: 90px;
 				transform:skew(50deg)
 				
 				}
@@ -648,8 +649,8 @@ div{
 				background:black;
 				height:90px;
 				width: 90px;
-				left: 1220px;
-				top: 215px;
+				left: 70px;
+				top: 15px;
 				border-radius:50%;
 				
 				}
@@ -657,9 +658,9 @@ div{
 			.S-1 {
 				background:black;
 				height:45px;
-				width:45px;
-				left: 1160px;
-				top: 325px;
+				width:55px;
+				left: 13px;
+				top: 125px;
 				border-radius:50%;
 				
 				}
@@ -668,8 +669,8 @@ div{
 				background:white;
 				height:130px;
 				width:13px;
-				left: 1220px;
-				top: 225px;
+				left: 70px;
+				top: 25px;
 				transform:skew(-30deg)
 
 			}
@@ -678,8 +679,8 @@ div{
 				background:white;
 				height:130px;
 				width:5px;
-				left: 1240px;
-				top: 225px;
+				left: 50px;
+				top: 25px;
 				transform:skew(-30deg)
 
 			}
@@ -689,16 +690,16 @@ div{
 				height: 25px;
 				width: 120px;
 				transform: skew(-35deg);
-				left:1370px;
-				top: 220px;
+				left:70px;
+				top: 20px;
 			}
 
 			.T-2 {
 				background:black;
 				height:110px;
 				width:5px;
-				left: 1380px;
-				top: 240px;
+				left: 80px;
+				top: 40px;
 				transform:skew(-35deg)
 
 			}
@@ -707,8 +708,8 @@ div{
 				background:black;
 				height:110px;
 				width:23px;
-				left: 1395px;
-				top: 240px;
+				left: 95px;
+				top: 20px;
 				transform:skew(-35deg)
 
 			}
@@ -717,8 +718,8 @@ div{
 				background:white;
 				height:100px;
 				width:7px;
-				left: 1563px;
-				top: 240px;
+				left: 43px;
+				top: 30px;
 				transform:skew(-30deg)
 			}
 
@@ -726,8 +727,8 @@ div{
 				background:white;
 				height:100px;
 				width:7px;
-				left: 1583px;
-				top: 240px;
+				left: 103px;
+				top: 40px;
 				transform:skew(-30deg)
 			}
 
@@ -735,8 +736,8 @@ div{
 				background:white;
 				height:100px;
 				width:20px;
-				left: 1645px;
-				top: 240px;
+				left: 125px;
+				top: 30px;
 				transform:skew(-30deg)
 			}
 
@@ -744,8 +745,8 @@ div{
 				background:black;
 				height:50px;
 				width:50px;
-				left: 1560px;
-				top: 316px;
+				left: 50px;
+				top: 116px;
 				border-radius: 50%;
 			
 			}
@@ -754,8 +755,8 @@ div{
 				background:black;
 				height:120px;
 				width:20px;
-				left: 1825px;
-				top: 240px;
+				left: 125px;
+				top: 30px;
 				transform:skew(-35deg)
 			}
 
@@ -763,8 +764,8 @@ div{
 				background:white;
 				height:100px;
 				width:20px;
-				left: 1745px;
-				top: 240px;
+				left: 35px;
+				top: 40px;
 				transform:skew(20deg)
 			}
 
