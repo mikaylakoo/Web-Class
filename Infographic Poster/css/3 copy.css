@@ -1,0 +1,371 @@
+
+body{
+	background:black;
+	font-family:SF Pro Display;
+
+}
+
+a { 
+	text-decoration: none; 
+	color: white; 
+}
+
+
+
+div{
+	position:absolute;
+	display:inline-block;
+}
+
+.left-side{
+	width:350px;
+	height:200px;
+	transform:perspective(50px) rotateY(6deg);
+	border: 3px;
+	outline-style: solid;
+	outline-color: #ff8d15;
+	left:240px;
+	top:250px;
+	
+}
+
+.side-1{
+	width:200px;
+	height:150px;
+	transform:perspective(100px) rotateX(60deg) rotateY(13deg);
+	border: 1px;
+	outline-style: double;
+	outline-color: #0042ff;
+	left:500px;
+	top:450px;
+}
+
+.side-2{
+	width:210px;
+	height:110px;
+	transform:perspective(47px) rotateY(6deg);
+	outline:1px;
+	outline-style: solid;
+	outline-color: #e24c03;
+	left:970px;
+	top:480px;
+}
+
+.front{
+	width:300px;
+	height:215px;
+	transform: perspective(400px);
+	border: 1px;
+	outline:9px;
+	outline-style: double;
+	outline-color: #001798;
+	top:247px;
+	left:600px;
+}
+
+.side-3{
+	width:220px;
+	height:110px;
+	transform:perspective(80px) rotateX(-47deg);
+	border: 1px;
+	outline-style: double;
+	outline-color:#fd5c26;
+	left:700px;
+	top:90px;
+}
+
+.side-4{
+	width:80px;
+	height:320px;
+	border: 10px;
+	outline: 8px;
+	outline-style: outset;
+	outline-color: #fb4e19;
+	left:40px;
+	top:190px;
+}
+
+.side-5{
+	width:300px;
+	height:200px;
+	transform:perspective(50px) rotateY(6deg);
+	border: 3px;
+	outline: 2px;
+	outline-style: dashed;
+	outline-color: #312a56;
+	left:150px;
+	top:190px;
+}
+
+
+.right-side{
+	width:220px;
+	height:200px;
+	transform:perspective(47px) rotateY(-6deg);
+	outline:2px;
+	outline-style: dashed;
+	outline-color: #2236a2;
+	left:910px;
+	top:230px;
+	
+}
+
+.bottom{
+	width:450px;
+	height:290px;
+	transform:perspective(400px) rotateX(65deg)rotateY(0.8deg);
+	border: 1px;
+	outline: 1px;
+	outline-style: solid;
+	outline-color: #f7af0c;
+	left:621px;
+	top:467px;
+	
+}
+.question{
+	font-family:SF Pro Display;
+	color:white;
+	font-size:180px;
+	left:750px;
+	top:-240px;
+
+}
+
+.intro{
+	text-align:left;
+	color:white;
+	font-size:19px;
+	text-align:left;
+	width:230px;
+	left:610px;
+	top:260px;
+	text-transform: uppercase;
+	
+}
+
+.names{
+	
+	color:white;
+	font-size:22px;
+	width:200px;
+	height:150px;
+	transform:perspective(100px) rotateX(60deg) rotateY(13deg);
+	left:520px;
+	top:480px;
+	
+}
+
+
+.description{
+	color:white;
+	font-size:8px;
+	text-align:left;
+	width:310px;
+	top: 310px;
+    left: 300px;
+    transform:perspective(50px) rotateY(9deg);
+
+
+}
+
+.description-right{
+	color:white;
+    left: 933px;
+    transform:perspective(17px) rotateY(-3deg);
+    text-align:right;
+    width:180px;
+    font-size:15px;
+	top: 260px;
+}
+
+.description-below{
+
+	width:200px;
+	height:120px;
+	transform:perspective(47px) rotateY(6deg);
+	left:980px;
+	top:490px;
+	font-size:5.5pt;
+	color:white;
+}
+
+.daniels{
+	color:white;
+	font-size:6px;
+	width:320px;
+	height:200px;
+	transform:perspective(80px) rotateY(16deg) rotate(12deg);
+	left:250px;
+	top:170px;
+
+
+}
+
+
+.letter {
+
+        		width:100px; /*resize as you see fit */
+        		height:100px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:4px double white; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        		left:800px;
+        		top:627px;
+        	}
+ .U-1 {
+				background:white;
+				height:55px;
+				width:3px;
+				left: 23px;
+				top: 10px;
+				transform:skew(-30deg)
+			}
+
+			.U-4 {
+				background:white;
+				height:50px;
+				width:3px;
+				left: 57px;
+				top: 15px;
+				transform:skew(-30deg)
+			}
+
+			.U-2 {
+				background:white;
+				height:60px;
+				width:10px;
+				left: 65px;
+				top: 15px;
+				transform:skew(-30deg)
+			}
+
+			.U-3 {
+				background:#ff4b02;
+				height:25px;
+				width:25px;
+				left: 15px;
+				top: 60px;
+				border-radius: 50%;
+			
+			}
+
+		.O-1 {
+				background:#ff4b02;
+				height:65px;
+				width:65px;
+				left: 18px;
+				top: 21px;
+				border-radius: 50%;
+				transform:skew(-30deg);
+			
+			}
+
+			.O-2 {
+				background:#ff4b02;
+				height:30px;
+				width:20px;
+				left: 32px;
+				top: 40px;
+				border-radius: 50%;
+			
+			}
+
+			.O-3 {
+				background:white;
+				height:65px;
+				width:3px;
+				left: 50px;
+				top: 22px;
+				transform:skew(-45deg)
+			
+			}
+
+			.O-4 {
+				background:white;
+				height:65px;
+				width:8px;
+				left: 35px;
+				top: 22px;
+				transform:skew(-45deg)
+			
+			}
+
+			.F-1 {
+				background:#ff4b02;
+				height:65px;
+				width:10px;
+				left: 25px;
+				top: 23px;
+				transform:skew(-35deg)
+
+			}
+
+			.F-2 {
+				background:white;
+				height:4px;
+				width:50px;
+				left: 45px;
+				top: 18px;
+				transform:skew(-35deg)
+
+			}
+
+			.F-3 {
+				background:#ff4b02;
+				height:32px;
+				width:32px;
+				left: 45px;
+				top: 47px;
+				border-radius:50%;
+
+				}
+
+			.F-4 {
+				background:white;
+				height:55px;
+				width:3px;
+				left: 40px;
+				top: 28px;
+				transform:skew(-35deg)
+
+				}
+
+			.T-3{
+				background:white;
+				height: 13px;
+				width: 60px;
+				transform: skew(-35deg);
+				left:32px;
+				top: 15px;
+			}
+
+			.T-2 {
+				background:#130cff;
+				height:57px;
+				width:3px;
+				left: 53px;
+				top: 25px;
+				transform:skew(-35deg)
+
+			}
+
+			.T-1 {
+				background:#ff4b02;
+				height:58px;
+				width:12px;
+				left: 35px;
+				top: 25px;
+				transform:skew(-35deg)
+
+			}
+  
+
+
+
+
+
+
+
+
+
+
