@@ -1,7 +1,7 @@
 
 body{
 	background:black;
-	font-family:SF Pro Display;
+	font-family:Big Shoulders Display;
 
 }
 
@@ -25,7 +25,7 @@ div{
 	outline-style: solid;
 	outline-color: #ff8d15;
 	left:240px;
-	top:250px;
+	top:530px;
 	
 }
 
@@ -37,41 +37,53 @@ div{
 	outline-style: double;
 	outline-color: #0042ff;
 	left:500px;
-	top:450px;
+	top:1550px;
 }
 
+.side-6{
+	width:180px;
+	height:130px;
+	transform:perspective(100px) rotateX(60deg) rotateY(13deg);
+	border: 1px;
+	outline-style: dotted;
+	outline-color: #ff8d14;
+	left:500px;
+	top:1510px;
+}
+
+
 .side-2{
-	width:210px;
+	width:410px;
 	height:110px;
-	transform:perspective(47px) rotateY(6deg);
+	transform:perspective(35px) rotateY(6deg);
 	outline:1px;
-	outline-style: solid;
+	outline-style: dotted;
 	outline-color: #e24c03;
-	left:970px;
-	top:480px;
+	left:770px;
+	top:780px;
 }
 
 .front{
-	width:300px;
-	height:215px;
+	width:400px;
+	height:315px;
 	transform: perspective(400px);
 	border: 1px;
 	outline:9px;
 	outline-style: double;
 	outline-color: #001798;
 	top:247px;
-	left:600px;
+	left:440px;
 }
 
 .side-3{
-	width:220px;
-	height:110px;
-	transform:perspective(80px) rotateX(-47deg);
+	width:320px;
+	height:130px;
+	transform:perspective(80px) rotateX(-46deg);
 	border: 1px;
 	outline-style: double;
 	outline-color:#fd5c26;
-	left:700px;
-	top:90px;
+	left:500px;
+	top:120px;
 }
 
 .side-4{
@@ -82,7 +94,7 @@ div{
 	outline-style: outset;
 	outline-color: #fb4e19;
 	left:40px;
-	top:190px;
+	top:450px;
 }
 
 .side-5{
@@ -94,74 +106,74 @@ div{
 	outline-style: dashed;
 	outline-color: #312a56;
 	left:150px;
-	top:190px;
+	top:450px;
 }
 
 
 .right-side{
-	width:220px;
-	height:200px;
+	width:350px;
+	height:400px;
 	transform:perspective(47px) rotateY(-6deg);
-	outline:2px;
+	outline:7px;
 	outline-style: dashed;
 	outline-color: #2236a2;
-	left:910px;
-	top:230px;
+	left:770px;
+	top:1130px;
 	
 }
 
 .bottom{
 	width:450px;
-	height:290px;
+	height:300px;
 	transform:perspective(400px) rotateX(65deg)rotateY(0.8deg);
 	border: 1px;
-	outline: 1px;
-	outline-style: solid;
-	outline-color: #f7af0c;
-	left:621px;
-	top:467px;
+	outline: 8px;
+	outline-style: double;
+	outline-color: #fb9f16;
+	left:281px;
+	top:847px;
 	
 }
 .question{
 	font-family:SF Pro Display;
 	color:white;
-	font-size:180px;
-	left:750px;
-	top:-240px;
+	font-size:130px;
+	left:580px;
+	top:80px;
 
 }
 
 .intro{
-	text-align:left;
 	color:white;
 	font-size:19px;
-	text-align:left;
+	text-align:center;
 	width:230px;
-	left:610px;
-	top:260px;
+	left:560px;
+	top:100px;
 	text-transform: uppercase;
+	transform:perspective(80px) rotateX(-47deg);
 	
 }
 
 .names{
 	
 	color:white;
-	font-size:22px;
+	font-size:26px;
 	width:200px;
 	height:150px;
 	transform:perspective(100px) rotateX(60deg) rotateY(13deg);
 	left:520px;
-	top:480px;
+	top:1480px;
 	
 }
 
 
 .description{
 	color:white;
-	font-size:8px;
+	font-size:12px;
 	text-align:left;
-	width:310px;
-	top: 310px;
+	width:270px;
+	top: 560px;
     left: 300px;
     transform:perspective(50px) rotateY(9deg);
 
@@ -170,33 +182,34 @@ div{
 
 .description-right{
 	color:white;
-    left: 933px;
+    left: 833px;
     transform:perspective(17px) rotateY(-3deg);
     text-align:right;
-    width:180px;
-    font-size:15px;
-	top: 260px;
+    width:250px;
+    font-size:30px;
+	top: 1160px;
 }
 
 .description-below{
 
-	width:200px;
+	width:460px;
 	height:120px;
-	transform:perspective(47px) rotateY(6deg);
-	left:980px;
-	top:490px;
-	font-size:5.5pt;
+	transform:perspective(35px) rotateY(2deg);
+	left:780px;
+	top:640px;
+	font-size:15pt;
 	color:white;
 }
 
 .daniels{
 	color:white;
-	font-size:6px;
-	width:320px;
+	font-size:16px;
+	width:300px;
 	height:200px;
-	transform:perspective(80px) rotateY(16deg) rotate(12deg);
-	left:250px;
-	top:170px;
+	transform:perspective(400px) rotateX(65deg)rotateY(0.8deg);
+	left:370px;
+	top:920px;
+	text-align:center;
 
 
 }
@@ -209,8 +222,8 @@ div{
         		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
         		border:4px double white; /*feel free to remove or hide this rule */
         		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
-        		left:800px;
-        		top:627px;
+        		left:140px;
+        		top:1257px;
         	}
  .U-1 {
 				background:white;

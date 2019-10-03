@@ -1,0 +1,17 @@
+.container {
+	display:grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	width:500px;
+	height:300px;
+	background:blue;
+}
+
+.yellow{
+	grid-column-start: 6;
+	grid-column-end: 10;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background:yellow;
+
+}
