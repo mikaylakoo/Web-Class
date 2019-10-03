@@ -1,10 +1,38 @@
 body {
-	background:black;
+	background:#912dff;
 	color:white;
+	font-family: 'Mansalva';
+}
+
+a{
+	font-size:40px;
+
+}
+
+div{
+	
+	display:inline-block;
+
 }
 
 .fp {
-	font-size: 1.2em;
-	text-transform:uppercase;
 	letter-spacing: 0.05em;
+}
+
+.title {
+	font-size: 100px;
+	text-align: left;
+	width: 300px;
+	top:300px;
+}
+
+.question {
+	font-size:30px;
+	color:#01ffad:
+}
+
+.ending {
+	font-size: 100px;
+	text-align: right;
+	width: 1200px;
 }
