@@ -1,0 +1,62 @@
+body {
+	background: #d5ff00;
+}
+
+.opening{
+	font-size: 50px;
+	text-align: center;
+	position: fixed;
+	left: 42%;
+	top: 45%;
+	font-family:Big Shoulders Display;
+}
+
+/*REF: https://css-tricks.com/using-css-cursors/*/
+
+#target{
+	cursor: url('FLY-PNG.png'), auto;
+	/*width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid blue;*/
+	position: fixed;
+	margin-top:-10px;
+	margin-left:-10px;
+	/*background: blue;*/
+	transition:all 0.1s ease-out;
+}
+
+
+
+/*.module {
+  cursor: url('FLY-PNG.png'), auto;	
+}*/
+
+#hand-bottom-right{
+	position:fixed;
+	left: 2800px;
+	top: 2000px;
+	transition: all 0.4s;
+}
+
+
+#hand-bottom-left{
+	position:fixed;
+	left: -100px;
+	top: 2000px;
+	transition: all 0.4s;
+}
+
+#hand-top-right{
+	position: fixed;
+	left:2800px;
+	top:-100px;
+	transition: 0.4s;
+}
+
+#hand-top-left{
+	position: fixed;
+	left:-2000px;
+	top:0px;
+	transition: 0.4s;
+}

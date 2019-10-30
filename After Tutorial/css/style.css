@@ -1,0 +1,145 @@
+body, html {
+	height:2000px;
+	margin:1;
+	position:absolute;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background: midnightblue;
+	text-align:center
+
+}
+
+
+.container {
+	left: 2fr;
+	top: 2fr;
+	display:grid;
+	width: 50vw;
+	height: 100vh;
+	border: 20px solid black;
+	
+}
+
+.slot {
+	border: 9px solid black;
+	background: orange;
+}
+
+
+.container-blinds {
+	left: 2fr;
+	top: 2fr;
+	display:grid;
+	width: 30vw;
+	height: 50vh;
+	border: 20px solid blue;
+	
+}
+
+.blinds {
+	border: 9px solid black;
+	background: blue
+
+}
+
+.open {
+	transform:perspective(5px) rotateX(-0.5deg);
+	transition: 0.5s;
+}
+
+
+.eyeball {
+	position:fixed;
+	width:300px;
+	height:300px;
+	border:3px;
+	border-radius:50%;
+	background: white;
+
+	bottom:50px;
+	right:50px;
+
+}
+
+.iris {
+	position:relative;
+	width:100px;
+	height:100px;
+	border:3px;
+	border-radius:50%;
+	background: red;
+
+	top: 60px;
+	left:30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.menu {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.elem {
+	padding:4em;
+	background:green;
+	border:3px solid #FFF;
+	color:#FFF;
+	text-align:center;
+	cursor:pointer;
+	height:25px;
+	transition: height 0.5s;
+}
+
+
+.active {
+	height:400px;
+	color:black;
+	width: 2em;
+}
+
+.elem:hover {
+	background:red;
+}
+
+.purple {
+	background:purple;
+}
+
+.blue {
+	background:blue;
+}*/
+
+.circle {
+	position:fixed;
+	width:300px;
+	height:300px;
+	border:3px;
+	border-radius:50%;
+	background: pink;
+
+	bottom:50px;
+	right:50px;
+
+}
+
+.line {
+	height:3px;
+	width:150px;
+	background:white;
+	margin-top:150px;
+}
