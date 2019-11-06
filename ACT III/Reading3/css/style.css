@@ -1,12 +1,126 @@
 body {
-	background: #d5ff00;
+	/*background: gradient #d5ff00;*/
+	padding: 10px 50px 50px 50px;
+  	/*background: linear-gradient(red, yellow);*/
+
+
+}
+/*SOURCE: https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+div{
+	position:relative;
+}
+
+.title {
+	width:680px;
+	height:400px;
+	left:101px;
+	top:0px;
+	font-size: 46px;
+}
+
+.para1 {
+	
+	width:700px;
+	height:200px;
+	left:101px;
+	top:407px;
+	font-size: 40px;
+	
+}
+
+.para2 {
+	
+	width:900px;
+	height:200px;
+	left:101px;
+	top:1007px;
+	font-size: 40px;
+	
+}
+
+
+.para3 {
+	
+	width:900px;
+	height:200px;
+	left:101px;
+	top:1707px;
+	font-size: 40px;
+	
+}
+
+.let {
+	
+	width:900px;
+	height:200px;
+	left:101px;
+	top:2507px;
+	font-size: 100px;
+	
+}
+
+.one{
+	left:101px;
+	top:2907px;
+
+}
+
+.two{
+	left:101px;
+	top:2907px;
+
+}
+
+.three{
+	left:101px;
+	top:2907px;
+
+}
+
+.four{
+	left:101px;
+	top:2907px;
+
+}
+
+.five{
+	left:101px;
+	top:2907px;
+
+}
+
+.six{
+	left:101px;
+	top:2907px;
+
+}
+
+.seven{
+	left:101px;
+	top:2907px;
+
+}
+
+.eight{
+	left:101px;
+	top:2907px;
+
+}
+
+.nine{
+	left:101px;
+	top:2907px;
+
 }
 
 
 
 
-
-.opening{
+/*.opening{
 	font-size: 90px;
 	color: #c1237b;
 	text-align: center;
@@ -31,19 +145,19 @@ body {
 	height: 20px;
 	border-radius: 50%;
 	border: 1px solid blue;*/
-	position: fixed;
+	/*position: fixed;
 	margin-top:-10px;
 	margin-left:-10px;
-	/*background: blue;*/
+	background: blue;
 	transition:all 0.1s ease-out;
-	animation: mymove 5s infinite;
+	animation: mymove 5s infinite;*/
 	/*REF: https://css-tricks.com/using-css-cursors/*/
-
-}
+/*
+}*/
 
 /*SOURCE: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_keyframes2*/
 
-@keyframes mymove { 
+/*@keyframes mymove { 
   0%   {top: 0px;}
   0%   {left:0px;}
   25%  {top: 300px;}
@@ -54,7 +168,7 @@ body {
   75%  {left: 50px;}
   100% {top: 0px;}
   100% {left:0px;}
-}
+}*/
  /* @keyframes mymove {
   0%   {left:0px, top: 0px;}
   25%  {left:200px, top: 300px;}
@@ -62,16 +176,16 @@ body {
   100% {left:300px, top: 100px;}*/
 /*}*/
 
-.miss{
+/*.miss{
 	font-size: 50px; 
 	font-family: Big Shoulders Display;
 }
-
+*/
 /*.module {
   cursor: url('FLY-PNG.png'), auto;	
 }*/
 
-#screen1 {
+/*#screen1 {
 	position:fixed;
 	left:-2000px;
 	right:-2000px;
@@ -104,4 +218,4 @@ body {
 	left:-2000px;
 	top:0px;
 	transition: 0.2s;
-}
+}*//**/
