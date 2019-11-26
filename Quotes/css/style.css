@@ -1,0 +1,238 @@
+body {
+	/*background: gradient #d5ff00;*/
+	padding: 10px 50px 50px 50px;
+	font-family: 'Inconsolata', monospace;
+  	/*background: linear-gradient(red, yellow);*/
+  	background-color: #030329;
+  	color: #0affb1;
+
+
+}
+/*SOURCE: https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
+/*::-webkit-scrollbar { 
+    display: none; 
+}*/
+
+div{
+	position:relative;
+}
+
+.title {
+	width:1200px;
+	left:101px;
+	top:0px;
+	font-size: 30px;
+}
+
+.para1 {
+	
+	width:1000px;
+	height:200px;
+	left:101px;
+	top:407px;
+	font-size: 40px;
+	color: pink;
+	
+}
+
+.para2 {
+	
+	width:1000px;
+	height:200px;
+	left:101px;
+	top:1007px;
+	font-size: 40px;
+	
+}
+
+
+.para3 {
+	
+	width:1300px;
+	height:200px;
+	left:101px;
+	top:1707px;
+	font-size: 40px;
+	color: pink;
+	
+}
+
+
+.para4 {
+	
+	width:1000px;
+	height:200px;
+	left:101px;
+	top:2707px;
+	font-size: 40px;
+	
+}
+
+.let {
+	
+	width:900px;
+	height:200px;
+	left:101px;
+	top:2507px;
+	font-size: 100px;
+	
+}
+
+.one{
+	left:101px;
+	top:1807px;
+	border-color: white;
+	border: 10px;
+
+}
+
+.two{
+	left:101px;
+	top:2907px;
+
+}
+
+.three{
+	left:101px;
+	top:2907px;
+
+}
+
+.four{
+	left:101px;
+	top:2907px;
+
+}
+
+.five{
+	left:101px;
+	top:2907px;
+
+}
+
+.six{
+	left:101px;
+	top:2907px;
+
+}
+
+.seven{
+	left:101px;
+	top:2907px;
+
+}
+
+.eight{
+	left:101px;
+	top:2907px;
+
+}
+
+.nine{
+	left:101px;
+	top:2907px;
+
+}
+
+
+
+
+/*.opening{
+	font-size: 90px;
+	color: #c1237b;
+	text-align: center;
+	position: fixed;
+	left: 25%;
+	top: 40%;
+	font-family: 'Ruge Boogie', cursive;
+}
+
+
+.rotation{
+	transform: rotate(90deg);
+}
+
+.rotation2{
+	transform: rotate(10deg);
+}
+
+#fly{
+	/*cursor: url('Fly-PNG.png'), auto;*/
+	/*width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid blue;*/
+	/*position: fixed;
+	margin-top:-10px;
+	margin-left:-10px;
+	background: blue;
+	transition:all 0.1s ease-out;
+	animation: mymove 5s infinite;*/
+	/*REF: https://css-tricks.com/using-css-cursors/*/
+/*
+}*/
+
+/*SOURCE: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_keyframes2*/
+
+/*@keyframes mymove { 
+  0%   {top: 0px;}
+  0%   {left:0px;}
+  25%  {top: 300px;}
+  25%  {left:500px;}
+  50%  {top:100px;}
+  50%  {left:200px;}
+  75%  {top: 100px;}
+  75%  {left: 50px;}
+  100% {top: 0px;}
+  100% {left:0px;}
+}*/
+ /* @keyframes mymove {
+  0%   {left:0px, top: 0px;}
+  25%  {left:200px, top: 300px;}
+  75%  {left:100px, top: 100px}
+  100% {left:300px, top: 100px;}*/
+/*}*/
+
+/*.miss{
+	font-size: 50px; 
+	font-family: Big Shoulders Display;
+}
+*/
+/*.module {
+  cursor: url('FLY-PNG.png'), auto;	
+}*/
+
+/*#screen1 {
+	position:fixed;
+	left:-2000px;
+	right:-2000px;
+}
+
+#hand-bottom-right{
+	position:fixed;
+	left: 2800px;
+	top: 2000px;
+	transition: all 0.2s;
+}
+
+
+#hand-bottom-left{
+	position:fixed;
+	left: -100px;
+	top: 2000px;
+	transition: all 0.2s;
+}
+
+#hand-top-right{
+	position: fixed;
+	left:2800px;
+	top:-100px;
+	transition: 0.2s;
+}
+
+#hand-top-left{
+	position: fixed;
+	left:-2000px;
+	top:0px;
+	transition: 0.2s;
+}*//**/
