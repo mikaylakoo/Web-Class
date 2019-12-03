@@ -1,0 +1,190 @@
+
+body{
+	background: #ffbc00;
+}
+
+/*https://css-tricks.com/the-shapes-of-css/*/
+/*https://1stwebdesigner.com/css-shapes/
+https://www.w3schools.com/css/css3_shadows.asp*/
+
+
+div{
+				
+				
+				position: absolute;
+		
+				 }
+
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+			.act {
+				font-family: 'Fredoka One', cursive;
+				font-size: 130px;
+				top: 300px;
+				left:80px;
+				color: black;
+				text-shadow: 10px 10px white;
+
+			}
+
+			/*.text {
+				color:white;
+				left: 20px;
+				top: 700px;	
+				font-family: 'Homemade Apple', cursive;
+
+			}*/
+
+			.quote {
+				color:black;
+				left: 50px;
+				top: 130px;	
+				font-size: 20px;
+				width: 210px;
+				height: 130px;
+				font-family: 'Fredoka One', cursive;
+				/*text-shadow: 2px 2px #ff0000;*/
+
+			}
+
+			.title {
+				font-family: 'Fredoka One', cursive;
+				font-size: 35px;
+				text-align: left;
+				top: 470px;
+				left: 85px;
+				color: black;
+				text-shadow: 2px 2px white;
+			}
+
+			.reading {
+				font-family: 'Fredoka One', cursive;
+				font-size: 30px;
+				text-align: center;
+				top: 1000px;
+				left: 70px;
+				color: black;
+				width: 160px;
+				text-shadow: 2px 2px white;
+			}
+
+
+			.legend {
+				color:black;
+				font-size: 35px;
+				font-family: 'Fredoka One', cursive;
+				left: 100px;
+				top: 470px;	
+				text-shadow: 2px 2px white;
+			
+			}
+
+			.edge {
+				rotate: 90deg;
+				position:absolute;
+				top:0px;
+				left: 300px;
+
+			}
+
+			/*.giffy {
+				position: absolute;
+				display: block;
+				height: 50%;
+				width: 50%;
+				top:300px;
+				left: 20px;
+			}*/
+
+
+			.one-1 {
+			height: 150px;
+			width: 240px;
+			border-radius: 20px / 20px;
+			position: absolute;
+			top: 100px;
+			left: 30px;
+			background-color: white;
+			/*box-shadow: 10px 10px 8px white;*/
+
+			}
+
+			.one-2 {
+			clip-path: polygon(27% 0, 0% 100%, 100% 0);
+			height: 50px;
+			width: 100px;
+			top: 240px;
+			left: 130px;
+			background-color: white;
+
+			}
+	
+
+/*			 #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+
+    #talkbubble {
+      width: 120px;
+      height: 80px;
+      background: red;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    #talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid red;
+      border-bottom: 13px solid transparent;
+    }
+*/
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
