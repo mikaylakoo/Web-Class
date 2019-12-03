@@ -1,0 +1,85 @@
+body {
+	/*background: gradient #d5ff00;*/
+	padding: 10px 50px 50px 50px;
+	font-family: 'Space Mono', monospace;
+
+  	/*background: linear-gradient(red, yellow);*/
+  	color: white;
+  	background: #080731;
+
+
+}
+
+#image1 {
+			position:absolute;
+
+	top: 40px;
+	left: 140px;
+	height: 700px;
+	width: 1000px;
+		/*z-index: 11;*/
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: black; 
+}
+
+/*SOURCE: https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+div{
+	position:relative;
+}
+
+.title {
+	width:680px;
+	left:101px;
+	top:0px;
+	font-size: 46px;
+}
+
+
+.para0 {
+	
+	width:460px;
+	left:121px;
+	top:70px;
+	font-size: 30px;
+}
+
+.para1 {
+	
+	width:900px;
+	left:1px;
+	top:500px;
+	font-size: 30px;
+	
+}
+
+.para2 {
+	
+	width:900px;
+	left:1px;
+	top:600px;
+	font-size: 40px;
+	
+}
+
+
+
+.arrow {
+	z-index: 2;
+	position: absolute;
+
+	width:100px;
+	height:30px;
+	left:80px;
+	top:340px;
+	
+}
