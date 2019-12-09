@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheer Culture</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Didact+Gothic|Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+
+<!--     font-family: 'Didact Gothic', sans-serif;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Lexend Deca', sans-serif; -->
+
+
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     body {
+      font-family: 'Gupter', serif;
+      color: #ff9c9c;
+     }
+
+
+      #map {
+        position:fixed;
+        top:90px;
+        height: calc(100vh - 90px);
+      }
+
+      #menu {
+        height:90px;
+        background:rgba(58, 9, 177, 1);
+        position:fixed;
+        top:0;
+        width:100%;
+        z-index:9;
+        transition:height 0.3s;
+      }
+
+      #menu:hover {
+        height:70vh;
+
+      }
+
+
+      #picture {
+        position: absolute;
+        height: 130px;
+        width: 100px;
+
+
+      }
+
+      #text1 {
+        position: absolute;
+        top:120px;
+        left: 70px;
+        font-size: 20px;
+        visibility: hidden;
+        z-index:10;
+      transition:height 0.3s;
+      width: 600px;
+      color: #ffd4d4;
+
+      }
+
+         #text2 {
+        position: absolute;
+        top:120px;
+        left: 770px;
+        font-size: 20px;
+        visibility: hidden;
+        z-index:10;
+      transition:height 0.3s;
+      width: 600px;
+      color:#ffd4d4;
+    
+}
+
+         #text3 {
+        position: absolute;
+        top:350px;
+        left: 770px;
+        font-size: 20px;
+        visibility: hidden;
+        z-index:10;
+      transition:height 0.3s;
+      width: 500px;
+      font-family: 'Grenze', serif;
+     color: #ff9c9c;
+
+
+      }
+
+
+/*
+      #menu:hover #text1 {
+        visibility: visible;
+
+      }*/
+
+
+
+      h1 {
+       
+       font-size: 30px;
+       font-family: 'Grenze', serif;
+        margin: 30px;
+       
+      }
+
+      h2 {
+       font-size: 25px;
+        font-family: 'Grenze', serif;
+        color: rgba(58, 9, 177, 1);
+         width: 300px;  
+
+      }
+
+      
+
+      h3 {
+       font-size: 17px;
+        color: #dd4b39;  
+            width: 300px; 
+            font-family: 'Gupter', serif;
+
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Gupter', serif;
+       
+      }
+
+      #image1 {
+        position: relative;
+      }
+
+
+    </style>
+  </head>
+  
+  <body>
+
+
+    <div id="menu"> <h1> Cheer Culture</h1>
+    </div>
+
+    <div id="text1"> 
+
+  <p>
+  In an often divided world, sport is a unique and important connective tissue that binds people together, both across and within societies.
+
+</p>
+
+<p>
+  Throughout my life living in four distinct countries, I've witnesses that sports chants, or fan cheer bring such communal power and I've been fascinated to learn about the variety of sports chants across different regions and countries.
+</p>
+
+ <p>
+ By definition, chant (in the context of sports) is most often used to encourage the home team or express their pride in the team, and they may be sung to celebrate a particular player or manager. Fans may also use chants to slight the opposition, and many fans sing songs about their club rivals, even when they are not playing them. Sometimes the chants are spontaneous reactions to events on the pitch.
+</p>
+
+ 
+
+ </div>
+
+
+<div id="text2"> 
+
+   <p>
+  Within each country that I was raised, I've felt the sense of belonging with despite of being a foreigner and felt that it had such vital impact on establishing a culture. </p>
+
+  <p>
+
+  I want to relive that moment and create the oneness with every nation's sports cheer. And this is my ongoing respository of the world's team cheers that exists in the sports community.
+
+</p> </div>
+
+<div id="text3">
+  <p>
+  - Created by Mikayla Koo, since November 2019 </p>
+ </div>
+
+
+<!-- <img id="earth" src="http://bestanimations.com/Earth&Space/Earth/earth-spinning-rotating-animation-24.gif"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <div id="map"></div>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMVAjFO5dyjj_QrnphrcPjfoJWLMQtX-c&callback=initMap"
+    async defer></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+	
+
+
+
+	
